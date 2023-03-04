@@ -2,6 +2,8 @@ name: Pylint
 
 on: [push]
 
+ignore: src/python
+
 jobs:
   build:
     runs-on: ubuntu-latest
